@@ -1,0 +1,34 @@
+{
+  "name": "million-hono-buns",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "keywords": [],
+  "repository": "https://github.com/Frikadellios/million-hono-buns",
+  "author": "Frikadellios <devopsick@pm.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/html": "^1.0.4",
+    "@types/mdx": "^2.0.13",
+    "@types/node": "^22.5.0",
+    "@types/web": "^0.0.157"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.3",
+    "@astrojs/mdx": "^3.1.4",
+    "@astrojs/react": "^3.6.2",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.14.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "unstorage": "^1.10.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
